@@ -1,0 +1,50 @@
+@font-face {
+    font-family:demo ;
+    src: url(sets/font/Creattion\ Demo.otf);
+}
+h1, main {
+    font-family: demo;
+    font-size: 80pt;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}   
+#title {
+  margin-bottom: -180px;  
+}
+#button {
+    background-color: #95e2b8;
+    border:2px solid black;
+    border-radius: 5px;
+    padding: 25px 30px;
+    box-shadow: 0 6px rgba(0, 17, 17, 0.979);
+}
+
+#button:hover {
+    background-color: #8ad188;
+}
+
+#button:active {
+    background-color: #8ad188;
+    box-shadow: 0 6px rgba(0, 0, 0, 0.527);
+    transform: translateX(10px);
+}
+.result {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -100px;
+    padding: 30px 30px;
+}
+body {
+    background-color: #95e2b8;
+    margin: 20px;
+}
+main {
+    margin-top: 50px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}

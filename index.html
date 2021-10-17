@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <h1>
+        <h1 id="title">
             Tabuada
         </h1>
     </header>
@@ -18,15 +18,15 @@
             <div>
                 <p>Numero: 
                     <input type="number" name="number" id="txtNumber">
-                    <input type="button" value="Gerar tabuada" onclick="gerarTabuada()">
+                    <input type="button" value="Gerar tabuada" id="button" onclick="gerarTabuada()">
                 </p>
-                </div>
-                <div>
-                    <select name="tabuada" id="selTabuada" size="10">
-                        <option></option>
+            </div>
+            <div>
+                <select name="tabuada" id="selTabuada" size="10" class="result"  >
+                    <option></option>
 
-                    </select>
-                </div>
+                </select>
+            </div>
         </section>
     </main>
     <footer>
