@@ -13,7 +13,7 @@ function gerarTabuada(){
             item.text = `${n} x ${c} = ${n * c}`;
             tabuada.appendChild(item);
             c++;
-            document.querySelector('.result').style.display = 'block';
         }
+        document.querySelector('.result').style.display = 'block';
     } 
 }
