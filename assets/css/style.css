@@ -1,18 +1,17 @@
 @font-face {
     font-family:demo ;
-    src: url(sets/font/Creattion\ Demo.otf);
+    src: url(font/Creattion\ Demo.otf);
 }
-h1, main {
+h1, #subtitle {
     font-family: demo;
     font-size: 80pt;
     font-weight: 200;
-    text-align: center;
-    margin-bottom: 2px;
-    margin-top: 2px;
 }   
-#title {
-  margin-bottom: -180px;  
+
+h1 {
+    text-align: center;
 }
+
 #button {
     background-color: #95e2b8;
     border:2px solid black;
@@ -30,21 +29,52 @@ h1, main {
     box-shadow: 0 6px rgba(0, 0, 0, 0.527);
     transform: translateX(10px);
 }
+
 .result {
     display: none;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -100px;
     padding: 30px 30px;
 }
+
+.sectionTabuada {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionTabuada__header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.sectionTabuada__header__item {
+    margin: auto;
+}
+
+#txtNumber {
+    padding: 2px auto;
+}
+
+input {
+    margin:center;
+}
+
 body {
     background-color: #95e2b8;
     margin: 20px;
 }
+
 main {
     margin-top: 50px;
 }
+
 a {
     text-decoration: none;
     color: black;
+}
+
+footer {
+    text-align: end;
 }
